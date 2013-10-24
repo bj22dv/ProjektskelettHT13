@@ -1,0 +1,148 @@
+/* Stilmall för mobil*****************************************************************/
+@media screen  and (max-width:480px)
+{
+   
+   
+    
+body
+{
+    background-color:#002366;
+}
+    
+#container
+{
+}
+
+#header
+{
+width:100%;
+height:100px;
+
+}
+
+#nav ul
+{
+    width:100%;
+}
+
+
+
+#nav li 
+{
+    width:50%;
+    float:left;
+}
+
+#nav a:link                                     /*Länkarna i navigationsmenyn*/
+{
+    
+    padding:15px;
+    display:block;
+    font-weight:bold;
+    color:black;
+    background-color:#FFD700;
+    text-align:center;
+
+    text-decoration:none;
+    border-top:1px solid  #FFD700;
+    border-right:1px solid  #FFD700;
+}
+
+#nav a:visited                                          /*Besökta länkar*/
+{
+    color:black;
+    background-color:#FFD700;
+
+}
+#nav a:hover                                             /*Länkar man håller musen över*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+#nav a:active                                           /*Klickad länk innan den byter sida*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+
+#activeLink
+{
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    border-top:1px solid  #FFD700;
+    border-right:1px solid  #FFD700;
+    float:left;
+    width:100%;
+}
+
+#content
+{
+    min-height:500px;
+
+}
+
+#footer
+{
+
+}
+
+
+
+}
+
+h1
+{
+    color:white;
+    
+}
+
+h2
+{
+    color:white;
+}
+
+p
+{
+    color:white;
+}
+
+/* Stilmall för skärm*****************************************************************/
+@media screen  and (min-width:481px)
+{
+   
+   
+    
+body
+{
+
+}
+    
+/*Huvud-elementen som bygger upp varje sida*/
+#container
+{
+
+}
+
+#header
+{
+
+}
+
+
+#content
+{
+
+}
+
+#footer
+{
+
+}
+
+
+
+}
+
+
