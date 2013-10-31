@@ -2,7 +2,6 @@
 @media screen  and (max-width:480px)
 {
    
-   
     
 body
 {
@@ -11,29 +10,31 @@ body
     
 #container
 {
+    width:100%;
 }
 
 #header
 {
-width:100%;
-height:100px;
+    width:100%;
+    height:100px;
 
 }
 
-#nav ul
+#navmob ul
 {
     width:100%;
 }
 
 
 
-#nav li 
+#navmob li 
 {
     width:50%;
     float:left;
+    font-family:verdana;
 }
 
-#nav a:link                                     /*Länkarna i navigationsmenyn*/
+#navmob a:link                              /*Länkarna i navigationsmenyn*/
 {
     
     padding:15px;
@@ -42,24 +43,24 @@ height:100px;
     color:black;
     background-color:#FFD700;
     text-align:center;
-
     text-decoration:none;
-    border-top:1px solid  #FFD700;
-    border-right:1px solid  #FFD700;
+    
+    border-top:1px solid  black;
+    border-right:1px solid  black;
 }
 
-#nav a:visited                                          /*Besökta länkar*/
+#navmob a:visited                                          /*Besökta länkar*/
 {
     color:black;
     background-color:#FFD700;
 
 }
-#nav a:hover                                             /*Länkar man håller musen över*/
+#navmob a:hover                                             /*Länkar man håller musen över*/
 {
     background-color:#E9C607;
     color:black;
 }
-#nav a:active                                           /*Klickad länk innan den byter sida*/
+#navmob a:active                                           /*Klickad länk innan den byter sida*/
 {
     background-color:#E9C607;
     color:black;
@@ -67,47 +68,157 @@ height:100px;
 
 #activeLink
 {
-    display:block;
-    font-weight:bold;
-    text-align:center;
-    text-decoration:none;
-    border-top:1px solid  #FFD700;
-    border-right:1px solid  #FFD700;
     float:left;
     width:100%;
+    font-family:verdana;
+    font-size:12pt;
+}
+#navscreen
+{
+    display:none;
 }
 
 #content
 {
     min-height:500px;
+    padding:2%;
+}
+#content img
+{
+    width:100%;
+    margin:auto;
+}
 
+#subcontent
+{
+    width:96%;
+    margin:auto;
+    margin-top:150px;
+    padding:2%;
+}
+
+#subcontent img
+{
+    max-width:100%;
+}
+
+#infobild
+{
+    margin-top:10px;
 }
 
 #footer
 {
-
+    background-color:#FFD700;
+    width:100%;
+}
+#footer p
+{
+    padding:10px;
+    color:black;
 }
 
-
+.post
+{
+    width:80%;
+    border:1px solid #FFD700;
+    min-height:200px;
+    padding:30px;
+    margin:auto;
 
 }
+.post h3
+{
+    margin:-30px;
+    padding:10px 30px 10px 30px;
+    width:100%;
+    background-color:#FFD700;
+    
+}
+.post p 
+{
+    margin-top:50px;
+}
+
 
 h1
 {
     color:white;
+    font-family:verdana;
+    font-size:20pt;
     
 }
 
 h2
 {
     color:white;
+    font-family:verdana;
+    font-size:18pt;
+    margin-bottom:20px;
+}
+
+h3
+{
+    color:white;
+    font-family:verdana;
+    font-size:18pt;
 }
 
 p
 {
     color:white;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
 }
 
+label
+{
+    width: 4em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block;
+}
+input
+{
+    color: black;
+    background: white;
+}
+.submit
+{   
+    margin-left:5px;
+    margin-top:5px;
+    font-size:14px;
+    font-family:Verdana;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    padding: 5px 9px 6px;
+    border: 2px outset buttonface;
+    background-color: buttonface;
+    box-sizing: border-box;
+} 
+fieldset
+{
+    
+    color:white;
+    width: 100%;
+    margin-top:145px;
+}
+legend
+{
+    color:white;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
+}
+a
+{
+    color:white;
+}
+
+}
 /* Stilmall för skärm*****************************************************************/
 @media screen  and (min-width:481px)
 {
@@ -116,32 +227,215 @@ p
     
 body
 {
-
+    background-color:#002366;
 }
     
 /*Huvud-elementen som bygger upp varje sida*/
 #container
 {
-
+    background-color:white;
+    margin:auto;
+    max-width:960px;
+    min-width:481px;
+    overflow:auto;
 }
 
 #header
 {
+    background-color:#002366;
+    width:100%;
+    height:100px;
+}
 
+#navscreen ul
+{
+    width:100%;
+}
+
+
+
+#navscreen li 
+{
+    width:20%;
+    float:left;
+    font-family:verdana;
+    font-size:12pt;
+}
+
+#navscreen a:link                              /*Länkarna i navigationsmenyn*/
+{
+    
+    padding:15px;
+    display:block;
+    font-weight:bold;
+    color:black;
+    background-color:#FFD700;
+    text-align:center;
+    text-decoration:none;
+    
+    border-top:1px solid  black;
+    border-right:1px solid  black;
+}
+
+#navscreen a:visited                                          /*Besökta länkar*/
+{
+    color:black;
+    background-color:#FFD700;
+
+}
+#navscreen a:hover                                             /*Länkar man håller musen över*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+#navscreen a:active                                           /*Klickad länk innan den byter sida*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+
+#activeLink
+{
+    font-family:verdana;
+    font-size:12pt;
+}
+#navmob
+{
+    display:none;
 }
 
 
 #content
 {
+    float:left;
+    width:60%;
+    min-height:500px;
+    padding:2%;
+}
+#content img
+{
+    max-width:50%;
+    float:right;
+}
 
+#subcontent
+{
+    float:right;
+    width:30%;
+    padding-top:60px;
+}
+
+#subcontent img
+{
+    max-width:100%;
 }
 
 #footer
 {
-
+    float:left;
+    background-color:#FFD700;
+    width:100%;
+}
+#footer p
+{
+    padding:10px;
+    color:black;
 }
 
+.post
+{
+    width:100%;
+    border:1px solid black;
+    min-height:200px;
+    padding:2%;
 
+}
+.post h3
+{
+    margin:-30px;
+    padding:10px 30px 10px 30px;
+    width:100%;
+    background-color:#FFD700;
+}
+.post p 
+{
+    margin-top:50px;
+}
+
+h1
+{
+    color:white;
+    font-family:verdana;
+    font-size:20pt;
+    
+}
+
+h2
+{
+    color:black;
+    font-family:verdana;
+    font-size:18pt;
+    margin-bottom:20px;
+}
+
+.post h1
+{
+    color:black;
+    font-family:verdana;
+    font-size:16pt;
+}
+
+p
+{
+    color:black;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
+}
+
+label
+{
+    width: 4em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block;
+}
+input
+{
+    color: black;
+    background: white;
+}
+.submit
+{   
+    margin-left:5px;
+    margin-top:5px;
+    font-size:14px;
+    font-family:Verdana;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+    background-color: buttonface;
+    box-sizing: border-box;
+} 
+fieldset
+{
+    color:black;
+    width: 100%;
+}
+legend
+{
+    color:black;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
+}
+#kontakttext
+{
+    margin-top:100px;
+}
 
 }
 

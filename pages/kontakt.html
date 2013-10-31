@@ -7,47 +7,89 @@
         <link rel="stylesheet" type="text/css" href="../css/reset.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         
-        <title>Lebje Mek Försäljning</title>
+        <title>Lebje Mek. Försäljning</title>
     </head>
     
     <body>
     <div id="container">
     <div id="header">
-        <h1>Lebje Mek Försäljning</h1>
+        <h1>Lebje Mek. Försäljning</h1>
         
     </div>
         
-    <div id="nav">
+    <div id="navmob">
         <ul>
             <li><a href="../index.html">Start</a></li>
             <li><a href="../pages/varor.html">Varor</a></li>
-            <li><a href="../pages/partners.html">Samarbetspartners</a></li>
-            <li><a href="../pages/info.html">Om företaget</a></li>
+            <li><a href="../pages/partners.html">Partners</a></li>
+            <li><a href="../pages/info.html">Om oss</a></li>
         </ul>
         <div id="activeLink">
             <a href="../pages/kontakt.html">Kontakt</a>
         </div>
     </div>
+    <div id="navscreen">
+        <ul>
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="../pages/varor.html">Varor</a></li>
+            <li><a href="../pages/partners.html">Partners</a></li>
+            <li><a href="../pages/kontakt.html" id="activeLink">Kontakt</a></li>
+            <li><a href="../pages/info.html">Om oss</a></li>
+        </ul>
+    </div>
+ 
+    <div id="subcontent">
+        <p>Dagens erbjudande</p>
+        <img src="http://placehold.it/280x150" id="infobild" alt="Placeholder"/>
+    </div>
     
     <div id="content">
         
-        <h2>Kontakt!</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id nisi fermentum, molestie sem nec, consectetur nisi. 
+        
+        <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Fyll i detta formulär och klicka på skicka-knappen. Vi kommer att besvara er så snart vi kan.</legend><br>
+                <label>Kategori</label>
+                    <select  id="kategori" name="Kategori">
+                    <option>-Ange kategori-</option>
+                    <option>Leverans</option>
+                    <option>Tjänster</option>
+                    <option>Varor</option>
+                    <option>Övrigt</option>
+                    </select>
+                <br>
+                    <label form="typ1">Namn</label>
+                    <input type="text" id="subject" name="Namn"/>
+                <br>
+                    <label form="typ1">Företag</label>
+                    <input type="text" id="subject" name="Företag"/>
+                <br>
+                    <label form="typ1">Telefon</label>
+                    <input type="text" id="subject" name="Telefon"/>
+                <br>
+                    <label form="typ1">E-post</label>
+                    <input type="text" id="subject" name="Epost"/>
+                <br>
+                    <label form="typ2">Fråga</label>
+                    <textarea rows="5" cols="20" id="question" name="Fråga" placeholder="Ställ din fråga här"></textarea>
+                </fieldset>
+                <input class="submit" type="submit" value="Skicka"/>
+            </form><br>
+        <p id="kontakttext">
+        Leif Jeansson<br>
+        Lebje Mek. Försäljing<br>
+        Strömsbergsvägen 7<br>
+        392 43 KALMAR<br>
+        Telefon: 0708-555952<br>
+        E-mail: <a href="mailto:mf27171@tele2.se" target="_top">mf27171@tele2.se</a><br>
         </p>
     </div>
     
     <div id="footer">
         <p>
-            Lebje Mek Försäljning Kalmar
+            Lebje Mek. Försäljning Kalmar
         </p>
     </div>
-        
-        
-        
-        
-        
-        
     </div>
     
     </body>
