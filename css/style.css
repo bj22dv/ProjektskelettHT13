@@ -70,7 +70,7 @@ body
     color:black;
 }
 
-#activeLink
+.activeLink
 {
     float:left;
     width:100%;
@@ -84,7 +84,7 @@ body
 
 #content
 {
-    min-height:500px;
+
     padding:2%;
 }
 #content img
@@ -107,6 +107,12 @@ li
     margin-top:150px;
     padding:2%;
 }
+#subcontent img
+{
+    display:block;
+    margin:auto;
+    max-width:80%;
+}
 
 #bottomcontent
 {
@@ -115,9 +121,25 @@ li
     margin-top:20px;
     padding:2%;
 }
-#subcontent img
+#bottomcontent img
 {
-    max-width:100%;
+    display:block;
+    margin:auto;
+    max-width:80%;
+}
+
+
+
+#gallery .gallery_image p
+{
+    margin-bottom:50px;
+}
+
+#gallery .gallery_image
+{
+    display:block;
+    margin:auto;
+    width:60%;
 }
 
 #infobild
@@ -186,6 +208,20 @@ h3
     color:white;
     font-family:verdana;
     font-size:18pt;
+}
+h4
+{
+    color:white;
+    font-family:verdana;
+    font-size:16pt;
+    margin-bottom:10px;
+    margin-top:20px;
+    margin-left:10%;
+}
+
+#bottomcontent p
+{
+    margin-left:10%;
 }
 
 p
@@ -322,7 +358,7 @@ body
     color:black;
 }
 
-#activeLink
+.activeLink
 {
     font-family:verdana;
     font-size:12pt;
@@ -335,9 +371,9 @@ body
 
 #content
 {
+    min-height:500px;
     float:left;
     width:60%;
-    min-height:500px;
     padding:2%;
 }
 
@@ -350,7 +386,6 @@ li
 
 #content img
 {
-    max-width:50%;
     float:right;
 }
 
@@ -363,7 +398,7 @@ li
 
 #subcontent img
 {
-    max-width:100%;
+    max-width:80%;
 }
 
 #bottomcontent
@@ -377,9 +412,35 @@ li
 
 #bottomcontent img
 {
-    max-width:100%;
+    max-width:80%;
 }
 
+
+#gallery .gallery_image
+{
+
+    width:30%;
+    height:180px;
+    margin:1%;
+    float:left;
+    border:1px solid #AAAAAA;
+    overflow:auto;
+}
+
+#gallery .gallery_image img
+{
+    display:block;
+    margin:auto;
+    max-width:100%;
+    max-height:120px;
+    float:none;
+}
+
+#gallery .gallery_image p
+{
+    float:left;
+    margin-bottom:5px;
+}
 
 #footer
 {
@@ -426,6 +487,273 @@ h2
     font-family:verdana;
     font-size:18pt;
     margin-bottom:20px;
+}
+
+h4
+{
+    color:black;
+    font-family:verdana;
+    font-size:16pt;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+.post h1
+{
+    color:black;
+    font-family:verdana;
+    font-size:16pt;
+}
+
+p
+{
+    color:black;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
+}
+
+label
+{
+    width: 4em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block;
+}
+input
+{
+    color: black;
+    background: white;
+}
+.submit
+{   
+    margin-left:5px;
+    margin-top:5px;
+    font-size:14px;
+    font-family:Verdana;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+    background-color: buttonface;
+    box-sizing: border-box;
+} 
+fieldset
+{
+    color:black;
+    width: 100%;
+}
+legend
+{
+    color:black;
+    font-family:verdana;
+    font-size:11pt;
+    line-height:120%;
+}
+#kontakttext
+{
+    margin-top:100px;
+}
+
+}
+/* Stilmall för utskrift*****************************************************************/
+@media print
+{
+   
+body
+{
+    background-color:#002366;
+}
+    
+/*Huvud-elementen som bygger upp varje sida*/
+#container
+{
+    background-color:white;
+    margin:auto;
+    max-width:960px;
+    min-width:481px;
+    overflow:auto;
+}
+
+#header
+{
+    display:none;
+}
+
+#navscreen ul
+{
+    display:none;
+}
+
+
+
+#navscreen li 
+{
+    display:none;
+}
+
+#navscreen a:link                              /*Länkarna i navigationsmenyn*/
+{
+    
+    display:none;
+}
+
+#navscreen a:visited                                          /*Besökta länkar*/
+{
+    color:black;
+    background-color:#FFD700;
+
+}
+#navscreen a:hover                                             /*Länkar man håller musen över*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+#navscreen a:active                                           /*Klickad länk innan den byter sida*/
+{
+    background-color:#E9C607;
+    color:black;
+}
+
+.activeLink
+{
+    font-family:verdana;
+    font-size:12pt;
+}
+#navmob
+{
+    display:none;
+}
+
+
+#content
+{
+    float:left;
+    width:60%;
+    padding:2%;
+}
+
+li
+{
+    color:black;
+    font-family:verdana;
+    font-size:12pt;
+}
+
+#content img
+{
+    float:right;
+}
+
+#subcontent
+{
+    float:right;
+    width:30%;
+    padding-top:60px;
+}
+
+#subcontent img
+{
+    max-width:80%;
+}
+
+#bottomcontent
+{
+    float:right;
+    width:30%;
+    margin:auto;
+    margin-top:50px;
+    padding:2%;
+}
+
+#bottomcontent img
+{
+    max-width:80%;
+}
+
+
+#gallery .gallery_image
+{
+
+    width:30%;
+    height:180px;
+    margin:1%;
+    float:left;
+    border:1px solid #AAAAAA;
+    overflow:auto;
+}
+
+#gallery .gallery_image img
+{
+    display:block;
+    margin:auto;
+    max-width:100%;
+    max-height:120px;
+    float:none;
+}
+
+#gallery .gallery_image p
+{
+    float:left;
+    margin-bottom:5px;
+}
+
+#footer
+{
+    float:left;
+    background-color:#FFD700;
+    width:100%;
+}
+#footer p
+{
+    font-size:10px;
+    padding:10px;
+    color:black;
+}
+
+.post
+{
+    width:100%;
+    border:1px solid black;
+    min-height:200px;
+    padding:2%;
+    margin-top:10px;
+
+}
+.post h3
+{
+    margin:-30px;
+    padding:10px 30px 10px 30px;
+    width:100%;
+    background-color:#FFD700;
+}
+.post p 
+{
+    margin-top:50px;
+}
+
+#header h1
+{
+    display:none;
+}
+
+h2
+{
+    color:black;
+    font-family:verdana;
+    font-size:14pt;
+    margin-bottom:20px;
+}
+
+h4
+{
+    color:black;
+    font-family:verdana;
+    font-size:14pt;
+    margin-bottom:10px;
+    margin-top:20px;
 }
 
 .post h1
