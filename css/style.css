@@ -358,10 +358,12 @@ body
     color:black;
 }
 
-.activeLink
+#activeScreen
 {
     font-family:verdana;
     font-size:12pt;
+    background-color:#E9C607;
+    font-weight:bold;
 }
 #navmob
 {
