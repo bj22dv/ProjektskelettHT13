@@ -1,29 +1,18 @@
-
-# Projektnamn här
+# Webbplats Lebje Mek Försäljning
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+Björn Jeansson [bj22dv](https://github.com/bj22dv), Henrik Gabrielsson [hg222aa](https://github.com/hg222aa)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+[Exekverbar version av projektet](http://c9.io/bj22dv/projektskelettht13)
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Vi har tänkt skapa en webbplats till företaget Lebje Mek Försäljning, ett företag baserat i Kalmar som bland annat utrustar verkstäder. Företaget är ett enmansföretag och har ingen webbplats sedan tidigare. Webbplatsen kommer innehålla 5 sidor och visa upp information och kontaktuppgifter om företaget, samarbetspartners samt varor och tjänster. Vi fick ideén då företaget ägs utav Leif Jeansson, som är Björns pappa.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+Webbplatsen kommer vi skapa genom att använda oss av HTML, CSS och eventuellt JavaScript. Vi kommer att utveckla hemsidan enligt Mobile First, alltså att vi först anpassar den till smartphones och sedan dator. Själva kodningen av webbplatsen kommer vi göra i Cloud9.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
-
-## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+Vi har ett antal begränsningar både från företaget och uppgiften i sig. Webbplatsen får inte bli större än 5 GB i datamängd då det skulle öka kostnaderna. Tiden begränsar oss också då projektet måste vara klart och redovisas inom 2 veckor.  Med endast HTML och CSS kan man inte programmera alla funktioner som vi önskar men vi kommer försöka implementera andra lösningar med t.ex. JavaScript för att lösa detta.
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+https://c9.io/bj22dv/projektskelettht13/workspace/Tidsplan%20Webbplats%20Lebje%20Mek%20F%C3%B6rs%C3%A4ljning%20(1).pdf
 
